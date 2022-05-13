@@ -1,3 +1,21 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.CardImg {
+  @apply w-full h-3/5 rounded-t-lg bg-norway bg-cover;
+}
+.CardTxt {
+  @apply w-full h-2/5 bg-secondary shadow-md rounded-b-lg;
+}
+.CardTxtWhite {
+  @apply w-full h-2/5 bg-white shadow-md rounded-b-lg;
+}
+
+.Card {
+  @apply w-48 h-64 shadow-md rounded-lg flex-none transform transition-all hover:-translate-y-4 hover:shadow-xl;
+}
+
+.CardTitle {
+  @apply text-3xl px-8 pt-8 pb-2 font-semibold text-white;
+}
